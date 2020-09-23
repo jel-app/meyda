@@ -2,7 +2,6 @@ meyda.sublime-project
 meyda.sublime-workspace
 node_modules
 audio
-dist
 .gitignore
 .env
 coverage
