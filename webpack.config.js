@@ -12,7 +12,8 @@ module.exports = [
     output: {
      filename: 'meyda.js',
      library: 'Meyda',
-     libraryTarget: 'umd'
+     libraryTarget: 'umd',
+     globalObject: 'this'
     },
     module: {
       rules: [
@@ -36,7 +37,8 @@ module.exports = [
      filename: 'meyda.min.js',
      sourceMapFilename: 'meyda.min.map',
      library: 'Meyda',
-     libraryTarget: 'umd'
+     libraryTarget: 'umd',
+     globalObject: 'this'
     },
     module: {
       rules: [
